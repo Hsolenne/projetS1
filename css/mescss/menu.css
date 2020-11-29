@@ -27,18 +27,17 @@
 /*Menu*/
 .menu{
     visibility:hidden;
-    background-color: #BEEC77;
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
     z-index: 1;
     transform: translateX(-100vw);
     transition: 1s;
+    padding-top: 250px;
 }
 
 .menu-open .menu{
@@ -53,13 +52,36 @@
     font-size: 24px;
 
 }
-.menu li{
-    margin-bottom: 15px;
-}
 .menu a{
     text-decoration: none;
-    color: white;
+    color: #BEEC77;
+    opacity: 0.7;
+
 }
-.en-tête {
-    z-index: 2;
+.menu li {
+    padding: 100px;
+}
+.menu li:first-of-type {
+    background-color: #49324B;
+    opacity: 1;
+}
+.menu li:nth-child(2) {
+    background-color: #49324B;
+    opacity: 0.9;
+}
+.menu li:nth-child(3) {
+    background-color: #49324B;
+    opacity: 0.8;
+}
+.menu li:nth-child(4) {
+    background-color: #49324B;
+    opacity: 0.7;
+}
+.menu li:nth-child(5) {
+    background-color: #49324B;
+    opacity: 0.6;
+}
+.menu li:nth-child(6) {
+    background-color: #49324B;
+    opacity: 0.5;
 }

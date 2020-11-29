@@ -2,16 +2,16 @@
     content: url("img-interface/logo.PNG");
     position: relative;
     bottom: -20px;
-    left: 100px;
+    left: 120px;
 }
 .en-tête {
     background-color: white;
     z-index: 3;
     position: fixed;
-    padding: 0 800px 20px 0 ;
+    padding: 0 800px 30px 0 ;
 }
 .en-tête h3 {
     position: absolute;
     left: 500px;
-    bottom: 30px;
+    bottom: 10px;
 }
