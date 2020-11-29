@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.en-tête {
+.en-tête p {
     color: transparent;
 }
-.menu {
+.menu, .en-tête:not(p) {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    color: white ;
+}
+.en-tête h3 {
+    font-size: 3em;
+    color: #BEEC77;
 }
