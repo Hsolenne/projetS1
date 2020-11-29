@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
 .en-tête p {
     color: transparent;
 }
 .menu, .en-tête:not(p) {
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 .en-tête h3 {
