@@ -3,7 +3,7 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 90px;
+    top: 110px;
     left: 50px;
     display: flex;
     align-items: center;
@@ -74,6 +74,7 @@
 .menu li:first-of-type {
     background-color: #49324B;
     opacity: 1;
+    padding-top: 140px;
 }
 .menu li:nth-child(2) {
     background-color: #49324B;
