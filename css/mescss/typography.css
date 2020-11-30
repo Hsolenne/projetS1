@@ -46,3 +46,17 @@ main>h1 {
 .contenu-accueil {
     line-height: 3em;
 }
+
+/*Pied de page*/
+footer{
+    color: #49324B;
+}
+footer p:last-of-type{
+    color: rgba(73,50,75,0.6);
+}
+footer a{
+    color: #49324B;
+}
+footer p:not(:last-of-type) {
+    line-height: 1.7rem;
+}
