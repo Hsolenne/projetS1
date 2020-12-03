@@ -19,6 +19,7 @@
 
 /*Pied de page*/
 footer {
+    display: block;
     background-color: rgba(73,50,75,0.1);
 }
 footer {
@@ -30,8 +31,9 @@ footer {
 }
 .pied-de-page-icon {
     position: absolute;
+    display: block;
     right: 70px;
-    top: 387rem;
+    padding-top: 2rem;
 }
 .pied-de-page-icon a {
     text-decoration: none;
