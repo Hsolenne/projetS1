@@ -3,7 +3,7 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 110px;
+    top: 140px;
     left: 50px;
     display: flex;
     align-items: center;
@@ -51,12 +51,17 @@
     transition: 1s;
     padding-top: 250px;
 }
-
 .menu-open .menu{
     visibility: visible;
     transform: translateX(0);
 }
-
+.menu-open .en-tête h3:first-of-type {
+    visibility: visible;
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+    z-index: 5;
+}
 .menu ul {
     list-style: none;
     margin: 0;
