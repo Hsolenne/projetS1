@@ -16,6 +16,19 @@
     visibility: hidden;
     position: absolute;
 }
+.en-tête h3:last-of-type {
+    position: absolute;
+    left: 25rem;
+    top: 1rem;
+}
+.article-autres-projets .en-tête h3:last-of-type {
+    width: 600px;
+    left: 22rem;
+}
+.infos-pratiques .en-tête h3:last-of-type {
+    top: -2rem;
+    left: 22rem;
+}
 
 /*Pied de page*/
 footer {
