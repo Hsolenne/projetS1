@@ -38,6 +38,9 @@
     font-size: 3.5rem;
     padding: 5px;
 }
+.contenu-accueil a {
+    color: #49324B;
+}
 
 /*Placement images page d'accueil*/
 .contenu-accueil img {
