@@ -12,6 +12,7 @@
     font-size: 200px;
     left: 400px;
     bottom: 50px;
+    color: #558A67;
 }
 .accueil h2 {
     background-color: rgba(190, 236, 119, 0.3);
@@ -46,4 +47,5 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 
