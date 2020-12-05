@@ -1,5 +1,5 @@
 /*Page d'accueil*/
-.accueil {
+.accueil{
     padding-top: 15rem;
 }
 .accueil h1 {
@@ -22,6 +22,7 @@
 .fa-home {
     font-size: 4rem;
     padding-right: 2rem;
+
 }
 .contenu-accueil-1, .contenu-accueil-3 {
     margin: 100px 40px 100px 40px;
@@ -50,5 +51,4 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 
