@@ -73,27 +73,28 @@
 }
 .menu a{
     text-decoration: none;
-    color: rgba(190, 236, 119, 0.8);
+    color: rgba(190, 236, 119, 0.7);
+
 }
 .menu li {
     padding: 100px;
 }
 .menu li:first-of-type {
-    background-color: rgba(73, 50, 75, 0.9);
+    background-color: rgba(73, 50, 75, 1.5);
     padding-top: 160px;
 }
 .menu li:nth-child(2) {
-    background-color: rgba(73, 50, 75, 0.8);
+    background-color: rgba(73, 50, 75, 0.95);
 }
 .menu li:nth-child(3) {
-    background-color: rgba(73, 50, 75, 0.7);
+    background-color: rgba(73, 50, 75, 0.85);
 }
 .menu li:nth-child(4) {
-    background-color: rgba(73, 50, 75, 0.6);
+    background-color: rgba(73, 50, 75, 0.75);
 }
 .menu li:nth-child(5) {
-    background-color: rgba(73, 50, 75, 0.5);
+    background-color: rgba(73, 50, 75, 0.65);
 }
 .menu li:nth-child(6) {
-    background-color: rgba(73, 50, 75, 0.4);
+    background-color: rgba(73, 50, 75, 0.55);
 }

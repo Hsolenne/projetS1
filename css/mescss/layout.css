@@ -54,7 +54,7 @@
 
 /*Autres pages*/
 main:not(.accueil) {
-    padding-top: 20rem;
-    margin: 0 40px 0 40px ;
+    padding: 20rem 40px 20px 40px ;
+    background-color: rgba(190, 236, 119, 0.1);
 }
 
