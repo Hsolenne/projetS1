@@ -11,7 +11,7 @@
     position: fixed;
     padding-right: 800px;
     display: block;
-    box-shadow: 10px 8px rgb(233, 233, 233);
+    box-shadow: 10px 8px 5px rgb(233, 233, 233);
 }
 .menu-open .en-tête {
     box-shadow: none;
@@ -41,6 +41,8 @@
 footer {
     display: block;
     background-color: rgba(73,50,75,0.1);
+    box-shadow: 10px -8px 5px rgb(220, 220, 220);
+
 }
 footer {
     padding: 10px 40px 10px 40px;

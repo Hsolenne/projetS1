@@ -52,3 +52,9 @@
     margin-right: auto;
 }
 
+/*Autres pages*/
+main:not(.accueil) {
+    padding-top: 20rem;
+    margin: 0 40px 0 40px ;
+}
+

@@ -73,34 +73,27 @@
 }
 .menu a{
     text-decoration: none;
-    color: #BEEC77;
-    opacity: 0.7;
+    color: rgba(190, 236, 119, 0.8);
 }
 .menu li {
     padding: 100px;
 }
 .menu li:first-of-type {
-    background-color: #49324B;
-    opacity: 1;
+    background-color: rgba(73, 50, 75, 0.9);
     padding-top: 160px;
 }
 .menu li:nth-child(2) {
-    background-color: #49324B;
-    opacity: 0.9;
+    background-color: rgba(73, 50, 75, 0.8);
 }
 .menu li:nth-child(3) {
-    background-color: #49324B;
-    opacity: 0.8;
+    background-color: rgba(73, 50, 75, 0.7);
 }
 .menu li:nth-child(4) {
-    background-color: #49324B;
-    opacity: 0.7;
+    background-color: rgba(73, 50, 75, 0.6);
 }
 .menu li:nth-child(5) {
-    background-color: #49324B;
-    opacity: 0.6;
+    background-color: rgba(73, 50, 75, 0.5);
 }
 .menu li:nth-child(6) {
-    background-color: #49324B;
-    opacity: 0.5;
+    background-color: rgba(73, 50, 75, 0.4);
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /*Paramètres généraux*/
 body {
@@ -19,10 +20,15 @@ body {
 }
 .menu li{
     font-size: 2.5em;
-    color: #BEEC77;
+    color: #49324B;
+    font-family: "Roboto Mono", monospace;
 }
 main {
     color: #49324B;
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5rem;
 }
 h2, h3 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -33,9 +39,30 @@ h2 {
 h3 {
     font-size: 4rem;
 }
+h2:not(.page-accueil) {
+    font-family: "Roboto Mono", monospace;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
 p {
     font-size: 2.5rem;
+    line-height: 4rem;
 }
+figcaption {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #558A67;
+}
+li:not(nav) {
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
 
 /*Page d'accueil*/
 .accueil>h1 {
