@@ -35,7 +35,7 @@
 .contenu-accueil-4 {
     margin-bottom: 5rem;
 }
-.fa-arrow-alt-circle-right {
+.page-accueil .fa-arrow-alt-circle-right {
     font-size: 3.5rem;
     padding: 5px;
 }
@@ -54,22 +54,42 @@
 
 /*Autres pages*/
 main:not(.accueil) {
-    padding: 20rem 40px 20px 40px ;
+    padding: 20rem 40px 180px 40px ;
     background-color: rgba(190, 236, 119, 0.1);
 }
-
+button a{
+    color: #49324B;
+}
+button {
+    position: absolute;
+    right: 80px;
+    padding: 20px 80px 20px 20px;
+    margin: 0;
+}
+.fa-arrow-alt-circle-right:not(.page-accueil) {
+    position: absolute;
+    font-size: 3rem;
+    padding-left: 15px;
+}
 
 /*Page infos pratiques*/
 textarea, button {
-    padding: 20px;
     margin: 20px 0 20px 0;
     border: none;
     background-color: rgba(73, 50, 75, 0.1);
     border-radius: 30px;
 }
+textarea {
+    padding: 20px;
+
+}
 button {
     background-color: rgba(73, 50, 75, 0.3);
     box-shadow: 10px 8px 5px rgb(233, 233, 233);
+}
+.infos-pratiques button {
+    left: 40px;
+    padding-right: 20px;
 }
 button:hover {
     background-color: rgba(73, 50, 75, 0.1);
