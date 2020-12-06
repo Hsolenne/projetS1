@@ -58,3 +58,23 @@ main:not(.accueil) {
     background-color: rgba(190, 236, 119, 0.1);
 }
 
+
+/*Page infos pratiques*/
+textarea, button {
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    border: none;
+    background-color: rgba(73, 50, 75, 0.1);
+    border-radius: 30px;
+}
+button {
+    background-color: rgba(73, 50, 75, 0.3);
+    box-shadow: 10px 8px 5px rgb(233, 233, 233);
+}
+button:hover {
+    background-color: rgba(73, 50, 75, 0.1);
+}
+textarea:focus, button:focus {
+    outline: none;
+}
+
