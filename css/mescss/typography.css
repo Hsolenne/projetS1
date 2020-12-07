@@ -85,7 +85,7 @@ footer p:not(:last-of-type) {
     line-height: 1.7rem;
 }
 
-/*Pas infos pratiques*/
+/*Page infos pratiques*/
 label, textarea, button {
     font-size: 2.5rem;
 }
