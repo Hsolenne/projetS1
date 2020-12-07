@@ -72,6 +72,16 @@ button {
     font-size: 3rem;
     padding-left: 15px;
 }
+.fa-angle-up {
+    position: fixed;
+    font-size: 7rem;
+    background-color: rgba(85, 138, 103, 0.5);
+    border-radius: 100%;
+    padding: 10px 30px 10px 30px;
+    right: 50px;
+    top: 120rem;
+    color: #49324B;
+}
 
 /*Page autres projets*/
 .article-autres-projets main h4{
