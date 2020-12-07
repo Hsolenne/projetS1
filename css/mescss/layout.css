@@ -26,12 +26,12 @@
 
 }
 .contenu-accueil-1, .contenu-accueil-3 {
-    margin: 100px 40px 100px 40px;
+    margin: 100px 70px 100px 70px;
 
 }
 .contenu-accueil-2, .contenu-accueil-4 {
     background-color: rgba(190, 236, 119, 0.3);
-    padding: 40px 40px 100px 40px;
+    padding: 40px 70px 100px 70px;
 }
 .contenu-accueil-4 {
     margin-bottom: 5rem;
@@ -55,7 +55,7 @@
 
 /*Autres pages*/
 main:not(.accueil) {
-    padding: 20rem 40px 180px 40px ;
+    padding: 20rem 70px 180px 70px ;
     background-color: rgba(190, 236, 119, 0.1);
 }
 
@@ -83,6 +83,122 @@ button {
     top: 120rem;
     color: #49324B;
 }
+figcaption {
+    margin-left: 70px;
+    padding: 20px;
+}
+figure {
+    margin: 0 -70px 0 -70px;
+}
+
+
+/*Page Snowden*/
+.resume-1 img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img-resume-2-act {
+    display: inline-block;
+}
+.img-resume-2-act img{
+    width: 50%;
+    position: relative;
+    float: right;
+    margin-top: -60px;
+}
+.img-resume-2-act figcaption {
+    padding-top: 105px;
+}
+.img-resume-2-code img, .resume-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Page problèmes*/
+.article-problèmes img {
+    width: 100%;
+    height: 100%;
+}
+.problemes-web img, .problemes-energie img{
+    width: 70%;
+    margin-left: 140px;
+    padding-bottom: 50px;
+}
+.img-problemes-intro img{
+    width: 70%;
+    position: relative;
+}
+.img-problemes-intro img:last-of-type {
+    float: right;
+    padding-bottom: 100px;
+}
+.img-problemes-intro figcaption:first-of-type {
+    position: relative;
+    float: left;
+    margin-left: 0;
+}
+.img-problemes-intro figcaption:last-of-type {
+    position: relative;
+    float: right;
+    top: -100px;
+}
+
+
+/*Page solutions*/
+.img-sol-terre img{
+    width: 30%;
+    position: relative;
+    float: right;
+    top: -70px;
+    right: 50px;
+}
+.img-sol-gafam img{
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.img-sol-gafam figcaption {
+    padding: 0 0 80px 0;
+}
+.img-sol-natik img {
+    width: 80%;
+    padding: 30px 0 0 70px;
+}
+.img-sol-natik figcaption {
+    padding: 0 0 80px 0;
+}
+.img-sol-energ {
+    position: absolute;
+    right: 70px;
+    top: 331rem;
+}
+.img-sol-recycle img {
+    width: 100%;
+    height: 100%;
+}
+.sol-scientifique h2 {
+    position: relative;
+    z-index: 2;
+    margin-right: 20rem;
+    margin-left: -60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.sol-scientifique img{
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    top: 609rem;
+    right: 0;
+}
+.sol-scientifique li {
+    list-style-type: circle;
+}
+
+
 
 /*Page autres projets*/
 .article-autres-projets main h4{

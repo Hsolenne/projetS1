@@ -56,7 +56,10 @@ li:not(nav) {
     font-size: 2.5rem;
     line-height: 4rem;
 }
-
+figcaption {
+    font-size: 2.3rem;
+    color: #558A67;
+}
 
 /*Page d'accueil*/
 .page-accueil h1 {
