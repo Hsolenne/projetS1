@@ -3,7 +3,7 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 150px;
+    top: 110px;
     left: 50px;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
     visibility: visible;
     position: absolute;
     left: 30rem;
-    top: 1rem;
+    top: 2rem;
     z-index: 5;
 }
 .menu-open .en-tête h3:last-of-type{
@@ -84,7 +84,7 @@
 }
 .menu li:first-of-type {
     background-color: rgba(73, 50, 75, 1.5);
-    padding-top: 160px;
+    padding-top: 120px;
 }
 .menu li:nth-child(2) {
     background-color: rgba(73, 50, 75, 0.95);

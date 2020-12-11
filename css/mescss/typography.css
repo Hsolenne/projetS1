@@ -61,6 +61,11 @@ figcaption {
     color: #558A67;
 }
 
+.en-tête h3 {
+    font-size: 4rem;
+}
+
+
 /*Page d'accueil*/
 .page-accueil h1 {
     font-family: Poppins, sans-serif;

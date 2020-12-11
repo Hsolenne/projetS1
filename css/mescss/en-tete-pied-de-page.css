@@ -3,7 +3,7 @@
     content: url("img-interface/logo.jpg");
     position: relative;
     bottom: -20px;
-    left: 120px;
+    left: 30px;
 }
 .en-tête {
     background-color: white;
@@ -25,16 +25,16 @@
 }
 .en-tête h3:last-of-type {
     position: absolute;
-    left: 25rem;
-    top: 1rem;
+    left: 28rem;
+    top: 2rem;
 }
 .article-autres-projets .en-tête h3:last-of-type {
     width: 600px;
-    left: 22rem;
+    left: 25rem;
 }
 .infos-pratiques .en-tête h3:last-of-type {
-    top: -2rem;
-    left: 22rem;
+    left: 27rem;
+    top: 0;
 }
 
 /*Pied de page*/
