@@ -59,10 +59,11 @@ main:not(.accueil) {
     background-color: rgba(190, 236, 119, 0.1);
 }
 
-button a{
+.bouton a{
     color: #49324B;
+    font-size: 2.5rem;
 }
-button {
+.bouton, button{
     position: absolute;
     right: 50px;
     padding: 20px 80px 20px 20px;
@@ -70,7 +71,7 @@ button {
     background-color: rgba(85, 138, 103, 0.5);
     box-shadow: 10px 8px 5px rgb(233, 233, 233);
 }
-button:hover {
+.bouton:hover {
     background-color: rgba(85, 138, 103, 0.1);
 }
 .fa-arrow-alt-circle-right:not(.page-accueil) {
@@ -228,7 +229,6 @@ q {
 }
 
 
-
 /*Page autres projets*/
 .article-autres-projets main h4{
     padding: 30px;
@@ -264,7 +264,7 @@ li {
 }
 
 /*Page infos pratiques*/
-textarea, button {
+textarea, .bouton, button {
     margin: 20px 0 20px 0;
     border: none;
     border-radius: 30px;

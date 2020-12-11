@@ -1,0 +1,34 @@
+.carousel-item img {
+    min-width: 100%;
+    height: 700px;
+}
+.carousel {
+    background-color: rgba(73,50,75,0.2);
+    margin: 100px -70px ;
+    padding: 20px 0 10px 0;
+}
+.carousel-items {
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+li.carousel-item {
+    flex: 1 0;
+    margin-right: 50px;
+    scroll-snap-align: center;
+}
+.carousel-item:first-of-type {
+    padding-left: 300px;
+}
+.carousel-item:last-of-type {
+    padding-right: 300px;
+}
+::-webkit-scrollbar {
+    height: 1rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(73,50,75,0.8);
+    border-radius: 30px;
+}
