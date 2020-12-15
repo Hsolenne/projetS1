@@ -191,6 +191,13 @@ q {
     color: rgba(85, 138, 103, 0.8);
     margin-top: -40px;
 }
+.interview h2 {
+    font-size: 3.7rem;
+    padding-top: 60px;
+}
+.interview video {
+    width: 100%;
+}
 
 
 /*Page solutions*/
@@ -227,7 +234,6 @@ q {
 }
 .sol-scientifique h2 {
     position: relative;
-    z-index: 2;
     margin-right: 20rem;
     margin-left: -60px;
     padding-top: 100px;
@@ -235,7 +241,6 @@ q {
 }
 .sol-scientifique img{
     position: absolute;
-    z-index: 1;
     width: 40%;
     top: 651rem;
     right: 0;
@@ -278,6 +283,7 @@ li {
 .article-autres-projets main li:not(:last-of-type) {
     border-bottom: solid #49324B 1px;
 }
+
 
 /*Page infos pratiques*/
 textarea, .bouton, button {
